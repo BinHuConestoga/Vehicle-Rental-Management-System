@@ -9,12 +9,12 @@ namespace Vehicle_Rental_Management_System
         public int Capacity { get; set; }
         public string TruckType { get; set; }
         public Boolean FourWheelDrive { get; set; }
-        public Truck(string model, string manufacturer, int year, float rentalprice, int capacity, string truckType, Boolean fourWheelDrive) : base(model, manufacturer, year, rentalprice)
+        public Truck(string model, string manufacturer, int year, float rentalPrice, int capacity, string truckType, Boolean fourWheelDrive) : base(model, manufacturer, year, rentalprice)
         {
             Model = model;
             Manufacturer = manufacturer;
             Year = year;
-            RentalPrice = rentalprice;
+            RentalPrice = rentalPrice;
             Capacity = capacity;
             TruckType = truckType;
             FourWheelDrive = fourWheelDrive;

@@ -10,14 +10,14 @@ namespace Vehicle_Rental_Management_System
         public string EngineType { get; set; }
         public string Transmission { get; set; }
         public Boolean Convertible { get; set; }
-        public Car (string model, string manufacturer, int year, float rentalprice, int seats, string enginetype, string transmission, Boolean convertible) : base (model, manufacturer, year, rentalprice) 
+        public Car (string model, string manufacturer, int year, float rentalPrice, int seats, string engineType, string transmission, Boolean convertible) : base (model, manufacturer, year, rentalprice) 
         {
             Model = model;
             Manufacturer = manufacturer;
             Year = year;
-            RentalPrice = rentalprice;
+            RentalPrice = rentalPrice;
             Seats = seats;
-            EngineType = enginetype;
+            EngineType = engineType;
             Transmission = transmission;
             Convertible = convertible;
         }

@@ -8,12 +8,12 @@
         public int Year { get; set; }
         public float RentalPrice { get; set; }
 
-        public Vehicle (string model, string manufacturer, int year, float rentalprice)
+        public Vehicle (string model, string manufacturer, int year, float rentalPrice)
         { 
             Model = model;
             Manufacturer = manufacturer;
             Year = year;
-            RentalPrice = rentalprice;
+            RentalPrice = rentalPrice;
         }
 
         public abstract void DisplayDetails();

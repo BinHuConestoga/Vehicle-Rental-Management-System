@@ -9,12 +9,12 @@ namespace Vehicle_Rental_Management_System
         public int EngineCapacity { get; set; }
         public string FuelType { get; set; }
         public Boolean HasFairing { get; set; }
-        public Motorcycle (string model, string manufacturer, int year, float rentalprice, int engineCapacity, string fuelType, Boolean hasFairing) : base(model, manufacturer, year, rentalprice)
+        public Motorcycle (string model, string manufacturer, int year, float rentalPrice, int engineCapacity, string fuelType, Boolean hasFairing) : base(model, manufacturer, year, rentalprice)
         {
             Model = model;
             Manufacturer = manufacturer;
             Year = year;
-            RentalPrice = rentalprice;
+            RentalPrice = rentalPrice;
             EngineCapacity = engineCapacity;
             FuelType = fuelType;
             HasFairing = hasFairing;
