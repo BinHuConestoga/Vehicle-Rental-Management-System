@@ -2,8 +2,10 @@
 
 namespace Vehicle_Rental_Management_System
 {
+    /*Add a class Car which inherits class Vehicle*/
     public class Car : Vehicle
     {
+        /*Add 4 new variables for Car*/
         public int Seats {  get; set; }
         public string EngineType { get; set; }
         public string Transmission { get; set; }
@@ -20,6 +22,7 @@ namespace Vehicle_Rental_Management_System
             Convertible = convertible;
         }
 
+        /*Display all detailed info for the Car*/
         public override void DisplayDetails()
         {
             Console.WriteLine("This vehicle's info:");

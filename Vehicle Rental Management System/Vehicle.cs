@@ -1,7 +1,7 @@
 ﻿namespace Vehicle_Rental_Management_System
 {
-    /*    Create an abstract class Vehicle with abstract method DisplayDetails*/
-    abstract public class Vehicle
+    /*Create an abstract class Vehicle with abstract method DisplayDetails*/
+    public abstract class Vehicle
     {
         public string Model { get; set; }
         public string Manufacturer { get; set; }

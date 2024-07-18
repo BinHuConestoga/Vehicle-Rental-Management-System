@@ -2,8 +2,10 @@
 
 namespace Vehicle_Rental_Management_System
 {
+    /*Add a class Motorcycle which inherits class Vehicle*/
     public class Motorcycle : Vehicle
     {
+        /*Add 3 new variables for Motorcycle*/
         public int EngineCapacity { get; set; }
         public string FuelType { get; set; }
         public Boolean HasFairing { get; set; }
@@ -18,6 +20,7 @@ namespace Vehicle_Rental_Management_System
             HasFairing = hasFairing;
         }
 
+        /*Display all detailed info for the Motorcycle*/
         public override void DisplayDetails()
         {
             Console.WriteLine("This vehicle's info:");

@@ -2,8 +2,10 @@
 
 namespace Vehicle_Rental_Management_System
 {
+    /*Add a class Truck which inherits class Vehicle*/
     public class Truck : Vehicle
     {
+        /*Add 3 new variables for Truck*/
         public int Capacity { get; set; }
         public string TruckType { get; set; }
         public Boolean FourWheelDrive { get; set; }
@@ -18,6 +20,7 @@ namespace Vehicle_Rental_Management_System
             FourWheelDrive = fourWheelDrive;
         }
 
+        /*Display all detailed info for the Truck*/
         public override void DisplayDetails()
         {
             Console.WriteLine("This vehicle's info:");
